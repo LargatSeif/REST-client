@@ -19,9 +19,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/boosted/dist/css/orangeHelvetica.min.css",
+        "../node_modules/boosted/dist/css/orangeIcons.min.css",
+        "../node_modules/boosted/dist/css/boosted.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/boosted/dist/js/boosted.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
